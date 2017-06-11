@@ -1,0 +1,26 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "Explore es6",
+  "main": "app.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "scripts": {
+    "build": "babel --presets es2015 src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LetCodie/es6.git"
+  },
+  "author": "Radin Reth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LetCodie/es6/issues"
+  },
+  "homepage": "https://github.com/LetCodie/es6#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
