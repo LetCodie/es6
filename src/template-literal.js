@@ -8,3 +8,12 @@ let template =
 <p>This is paragraph.</p>`;
 
 document.getElementById('template').innerHTML = template;
+
+
+var promise = new Promise(function(resolve, reject) {
+  var xml = new XMLHTTPRequest();
+  xml.open('get', 'url');
+  xml.reload = function(response) {
+    resolve(response)
+  }
+})
